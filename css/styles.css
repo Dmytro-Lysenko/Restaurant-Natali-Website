@@ -326,7 +326,7 @@ footer {
 .gallery img:hover {
    cursor: pointer;
    -webkit-transform:scale(1.5); /* or some other value */
-   transform:scale(1.4);
+   transform:scale(1.3);
    transition: 900ms ease all;
 }
 
