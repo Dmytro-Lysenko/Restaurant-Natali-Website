@@ -38,7 +38,7 @@ openIcon.addEventListener('click', ()=> {
     mobileNav.classList.toggle('slide-in');
     openIcon.classList.toggle('display-none');
     setTimeout(() => {
-        closeIcon.classList.toggle('display-none');
+        closeIcon.classList.toggle('display-unset');
     },500);
 });
 
