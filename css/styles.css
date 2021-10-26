@@ -129,7 +129,7 @@ header {
 
 .container img {
     max-width: 85px;
-    padding-right: 20px;
+    margin: 0 10px 0 0;
 }
 
 .nav-left {
@@ -420,11 +420,6 @@ footer {
   }
 
   @media only screen and (max-width: 550px) {
-
-
-    .nav-left {
-        padding: 0 10px;
-    }
 
     .nav-left p {
         font-size: 13px;
