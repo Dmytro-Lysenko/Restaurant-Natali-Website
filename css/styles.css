@@ -317,12 +317,8 @@ footer {
     text-align: center;
 }
 
-.gallery li {
-    max-width: 350px;
-}
-
 .gallery img {
-    display: block;
+    max-width: 350px;
     padding: 10px;
     transition:transform 0.25s ease;
     border-radius: 26px;
