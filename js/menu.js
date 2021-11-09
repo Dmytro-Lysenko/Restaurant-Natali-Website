@@ -8,6 +8,10 @@ openIcon.addEventListener('click', ()=> {
     mobileNav.classList.remove('slide-out');
     mobileNav.classList.toggle('slide-in');
     openIcon.classList.toggle('display-none');
+    closeIcon.classList.toggle('display-none')
+    setTimeout(() => {
+      closeIcon.classList.toggle('display-none')
+  },600);
 });
 
 closeIcon.addEventListener('click', () => {
@@ -44,7 +48,7 @@ menuContacts.innerText = "Contacts";
 adress.innerText = "s.Mynay str.Transportnux bydivelnukiv 6a";
 workTime.innerText = "Mn-Sn: 10:00-24:00";
 workTimeFooter.innerText = "Mn-Sn: 10:00-24:00";
-book.innerText = "Book";
+book.innerText = "Reserve";
 ukr.innerText = "UKR";
 mobileMenu.innerText = "Menu";
 mobileFoto.innerText = "Foto";
